@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  padding: 46px 100px 84px 100px;
+}
+.container #box-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.container #box-1 ul {
+  display: flex;
+}
+.container #box-1 ul li a {
+  display: flex;
+  margin-left: 30px;
+  color: #646464;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.container #box-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.container #box-2 .left-side h2 {
+  margin-top: 30px;
+  color: #646464;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.container #box-2 .left-side h1 {
+  color: #212121;
+  font-family: Poppins;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 78px; /* 108.333% */
+}
+.container #box-2 .left-side p {
+  color: #646464;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 603px;
+}
+.container #box-2 .left-side a {
+  margin-bottom: 46px;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px; /* 433.333% */
+  border-radius: 20px 0px;
+  background: #37806B;
+  width: 1042.154px;
+  height: 42.808px;
+  flex-shrink: 0;
+  padding: 16px 28px;
+}
+.container #box-2 .right-side img {
+  width: 517px;
+  height: 426px;
+  flex-shrink: 0;
+}
+.container #services {
+  margin-top: 176px;
+}
+.container #services .box-4 {
+  display: flex;
+  justify-content: space-between;
+}
+.container #services .box-4 .box-4-4 h3 {
+  color: #646464;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.2px;
+}
+.container #services .box-4 .box-4-4 h4 {
+  color: #212121;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 78px; /* 162.5% */
+}
+.container #services .box-5 {
+  display: flex;
+  margin-top: 50px;
+}
+.container #services .box-5 .three-main-box {
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  width: 425px;
+  height: 193px;
+  flex-shrink: 0;
+  border-radius: 60px 0px;
+  background: #FFF;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
+}
+.container #services .box-5 .three-main-box .icons-2 img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.container #services .box-5 .three-main-box .box-4-4 h5 {
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px; /* 325% */
+}
+.container #services .box-5 .three-main-box .box-4-4 p {
+  width: 307px;
+  color: #646464;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.18px;
+}
+.container #about .box-6 {
+  display: flex;
+  margin-top: 236px;
+  justify-content: space-between;
+}
+.container #about .box-6 .left-side-about img {
+  width: 532px;
+  height: 426px;
+  flex-shrink: 0;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+}
+.container #about .box-6 .right-side-about h2 {
+  color: #646464;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+.container #about .box-6 .right-side-about h6 {
+  width: 490px;
+  color: #212121;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 57px; /* 118.75% */
+}
+.container #about .box-6 .right-side-about p {
+  color: #646464;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 540px;
+}
+.container #about .box-6 .right-side-about a {
+  padding: 20px;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px; /* 487.5% */
+  width: 142.154px;
+  height: 42.808px;
+  flex-shrink: 0;
+  border-radius: 20px 0px;
+  background: #37806B;
+}
+.container #about .box-7 {
+  display: flex;
+  margin-top: 224px;
+}
+.container #about .box-7 .left-side-blog {
+  margin-top: 400px;
+}
+.container #about .box-7 .left-side-blog h2 {
+  color: #212121;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 65px; /* 130% */
+  letter-spacing: 2px;
+}
+.container #about .box-7 .left-side-blog a {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px; /* 433.333% */
+  width: 142.154px;
+  height: 42.808px;
+  flex-shrink: 0;
+  border-radius: 20px 0px;
+  background: #37806B;
+  padding: 8px;
+}
+.container #blog {
+  margin-top: 225px;
+}
+.container #blog .green-box {
+  background: #F8F8F8;
+  padding: 87px 291px 105px 286px;
+}
+.container #blog .green-box .box-8 h3 {
+  color: #212121;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px; /* 125% */
+  text-align: center;
+}
+.container #blog .green-box .box-9 {
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+}
+.container #blog .green-box .box-9 .box-9-9 {
+  padding: 47px;
+  width: 145px;
+  height: 142px;
+  flex-shrink: 0;
+  border-radius: 40px 0px;
+  background: #FFF;
+  box-shadow: 0px 13px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.container #blog .green-box .box-9 .box-9-9 p {
+  color: #212121;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 120% */
+  color: #646464;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+.container #blog .white-box {
+  padding: 163px 291px 183px 286px;
+}
+.container #blog .white-box .box-10 {
+  text-align: center;
+}
+.container #blog .white-box .box-10 .box-10-10 h4 {
+  color: #646464;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #blog .white-box .box-10 .box-10-10 h5 {
+  color: #212121;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=index.css.map */
